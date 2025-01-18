@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+}
+
+.nasa-body {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  position: relative;
+}
+
+.des {
+  position: absolute;
+  bottom: 0;
+  color: white;
+}
+h1 {
+  margin-right: 10px;
+}
+.cons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cons:not(h1) {
+  font-size: 1.4rem;
+}
+.info {
+  cursor: pointer;
+}
