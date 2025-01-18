@@ -29,3 +29,15 @@ h1 {
 .info {
   cursor: pointer;
 }
+.description {
+  position: absolute;
+  top: 50%; /* Move down 50% of the container's height */
+  left: 50%; /* Move right 50% of the container's width */
+  transform: translate(
+    -50%,
+    -50%
+  ); /* Offset by half the element's width and height to center */
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  color: whitesmoke;
+}
